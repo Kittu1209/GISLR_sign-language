@@ -64,3 +64,17 @@ To run the project on your local machine, follow these steps:
 
 This repository contains a transformer-based model for real-time Google Isolated American sign language (ASL) recognition. It leverages a TensorFlow Lite model for gesture recognition and the Gemini API for sentence construction, enabling accessible communication through live video input.
 
+
+## Directory Structure
+
+Below is the directory structure of the `GISLR_sign-language` repository:
+
+```plaintext
+GISLR_sign-language/
+├── app.py
+├── train.csv
+├── 10042041.parquet
+├── requirements.txt
+└── model/
+    └── model.tflite
+
